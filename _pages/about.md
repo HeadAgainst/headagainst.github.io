@@ -1,56 +1,70 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
+title: "ChenBin | Academic Homepage"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<main class="cb-home">
+  <section class="cb-hero" id="about">
+    <div>
+      <p class="cb-kicker">Artificial Intelligence · Xiamen University</p>
+      <h1>Hi, I'm <span>ChenBin</span>.</h1>
+      <p class="cb-lede">I am a master's student in Artificial Intelligence at Xiamen University. My research focuses on vision-language models, agent systems, image aesthetics assessment, and remote sensing foundation models. I am interested in helping models understand the visual world and work reliably in real-world settings.</p>
+      <div class="cb-links">
+        <a class="cb-button cb-button--primary" href="mailto:1585059590@qq.com">Get in touch ↗</a>
+        <a class="cb-button" href="#publications">View publications ↓</a>
+      </div>
+    </div>
+    <div class="cb-mark" aria-label="ChenBin initials">CB</div>
+  </section>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+  <section class="cb-section" id="research">
+    <div class="cb-section__heading">
+      <p class="cb-section__label">01 / Research</p>
+      <div>
+        <h2>What I am exploring</h2>
+        <p class="cb-section__intro">Building on machine learning to connect multimodal understanding, intelligent decision-making, and real-world applications.</p>
+      </div>
+    </div>
+    <div class="cb-research-grid">
+      <article class="cb-card"><span class="cb-card__number">01</span><h3>Vision-Language Models</h3><p>Understanding, transferring, and efficiently adapting multimodal models.</p></article>
+      <article class="cb-card"><span class="cb-card__number">02</span><h3>Agent Systems</h3><p>Agent collaboration and tool use for complex tasks.</p></article>
+      <article class="cb-card"><span class="cb-card__number">03</span><h3>Image Aesthetics</h3><p>Personalized image aesthetics assessment and hierarchical modeling.</p></article>
+      <article class="cb-card"><span class="cb-card__number">04</span><h3>Remote Sensing</h3><p>Remote sensing foundation models and geospatial intelligence.</p></article>
+    </div>
+  </section>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+  <section class="cb-section" id="experience">
+    <div class="cb-section__heading">
+      <p class="cb-section__label">02 / Education</p>
+      <div><h2>Education</h2></div>
+    </div>
+    <div class="cb-timeline">
+      <article class="cb-timeline__item"><div class="cb-timeline__date">2025 — 2028</div><div><h3>Xiamen University · M.S. in Artificial Intelligence</h3><p>SmartDSP Lab, advised by Professor Ding Xinghao.</p></div></article>
+      <article class="cb-timeline__item"><div class="cb-timeline__date">2021 — 2025</div><div><h3>Hangzhou Dianzi University · B.S. in Computer Science and Technology</h3><p>Focused on machine learning and graph neural networks (GNN), participated in related projects, and was advised by Wang Yuxiang.</p></div></article>
+    </div>
+  </section>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+  <section class="cb-section" id="publications">
+    <div class="cb-section__heading">
+      <p class="cb-section__label">03 / Selected work</p>
+      <div><h2>Publications</h2><p class="cb-section__intro">Selected research contributions. A complete list and project links will be added over time.</p></div>
+    </div>
+    <div>
+      <article class="cb-pub"><div class="cb-pub__index">01</div><div><h3>STM: A Spatio-Temporal Model for Dynamic Graph Fraud Detection</h3><p><em>DASFAA 2025</em> · Co-first, third author</p></div></article>
+      <article class="cb-pub"><div class="cb-pub__index">02</div><div><h3>PERTURB TO PROTECT: LEVERAGING TEST-TIME DEFENSIVE PERTURBATIONS AGAINST ADVERSARIAL ATTACKS</h3><p><em>ICASSP 2026</em> · Second author</p></div></article>
+      <article class="cb-pub"><div class="cb-pub__index">03</div><div><h3>LEARNING WHAT TRANSFERS: HIERARCHICAL MLLM READOUT FOR PERSONALIZED IMAGE AESTHETICS ASSESSMENT</h3><p><em>ICASSP 2027</em> · First author, under review</p></div></article>
+    </div>
+  </section>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+  <section class="cb-section" id="contact">
+    <div class="cb-section__heading">
+      <p class="cb-section__label">04 / More</p>
+      <div><h2>Let’s connect</h2><p class="cb-section__intro">If you are interested in multimodal learning, agents, or remote sensing foundation models, feel free to reach out.</p></div>
+    </div>
+    <div class="cb-footer-note"><strong>Email:</strong> <a href="mailto:1585059590@qq.com">1585059590@qq.com</a></div>
+  </section>
+</main>
