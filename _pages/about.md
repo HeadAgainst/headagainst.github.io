@@ -56,7 +56,6 @@ redirect_from:
     <div>
       <article class="cb-pub"><div class="cb-pub__index">01</div><div><h3>STM: A Spatio-Temporal Model for Dynamic Graph Fraud Detection</h3><p><em>DASFAA 2025</em> · Co-first, third author</p></div></article>
       <article class="cb-pub"><div class="cb-pub__index">02</div><div><h3>PERTURB TO PROTECT: LEVERAGING TEST-TIME DEFENSIVE PERTURBATIONS AGAINST ADVERSARIAL ATTACKS</h3><p><em>ICASSP 2026</em> · Second author</p></div></article>
-      <article class="cb-pub"><div class="cb-pub__index">03</div><div><h3>LEARNING WHAT TRANSFERS: HIERARCHICAL MLLM READOUT FOR PERSONALIZED IMAGE AESTHETICS ASSESSMENT</h3><p><em>ICASSP 2027</em> · First author, under review</p></div></article>
     </div>
   </section>
 
