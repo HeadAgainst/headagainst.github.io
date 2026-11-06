@@ -13,10 +13,9 @@ title                    : "ChenBin | Academic Homepage"
 title_separator          : "-"
 name                     : &name "ChenBin"
 description              : &description "ChenBin's academic homepage — multimodal learning, agents, and remote sensing foundation models"
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      : https://headagainst.github.io # The base hostname & protocol for your site
+baseurl                  : "/headagainst" # the subpath for this project site
+repository               : "HeadAgainst/headagainst"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
